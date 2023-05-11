@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "orientation": "portrait",
+    "name": "mobile-app",
+    "slug": "mobile-app",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
+  }
+}
